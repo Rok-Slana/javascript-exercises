@@ -1,9 +1,5 @@
-//1,8
-//0.5555555556
-
 const ftoc = function(givenTemp) {
-  let convertedTemp = Math.round(((givenTemp - 32) * (5/9))*10)/10; 
-
+  let convertedTemp = Math.round(((givenTemp - 32) * (5/9))*10)/10;
   return convertedTemp;
 };
 
